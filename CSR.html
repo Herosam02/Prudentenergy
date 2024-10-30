@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prudent Energy</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body class='overflow-x-hidden'>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="./cropped-Prudent-Energy-Logo-1.png" alt="Prudent Energy Logo" width="150" height="50">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Our Company
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="about.html">About us</a></li>
+                            <li><a class="dropdown-item" href="ourbrand.html">Our Brand</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="sustainabilityDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Sustainability
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="sustainabilityDropdown">
+                            <li><a class="dropdown-item" href="HSEPolicy.html">HSE Policy</a></li>
+                            <li><a class="dropdown-item" href="qualitypolicy.html">Quality Policy</a></li>
+                            <li><a class="dropdown-item" href="CSR.html">CSR</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="mediacenter.html">Media Centre</a></li>
+                    <li class="nav-item"><a class="nav-link" href="careers.html">Careers</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div>
+        <img src='shutterstock_364130615-1920x680.jpg' class='wdf' />
+    </div>
+
+    <div class='container'>
+        <div class='pt-5'>
+            <div class='row'>
+                <div class='col-md-5'>
+                    <div class=''>
+                        <h1 class='fs-4 ms-5 ps-5'>Corporate <br />
+                            Social Responsibility</h1>
+                        <p class='fs-5 ms-5 ps-5'>We owe a huge part of our successful <br />
+                            strides to the immediate and extended <br />
+                            communities where we operate. So we <br />
+                            continuously ensure that these <br />
+                            communities feel the impact of our <br />
+                            existence in a positive and progressive <br />
+                            manner.
+                        </p>
+                    </div>
+                </div>
+
+                <div class='col-md-6'>
+                    <div class=''>
+                        <p class='fs-5'>Through the years of our existence, we have collaborated with local <br />
+                            communities, state and national institutions to develop infrastructures and
+                            support interventions in healthcare, sports and education.
+                        </p>
+
+                        <p class='fs-5 mt-2'>In partnership with community leaders, we routinely monitor and identify
+                            socio-economic needs in communities which we can meet to drive
+                            development for our hosts. 
+                        </p>
+
+                        <p class='fs-5 mt-2'>So far, we have firmly supported health and education infrastructures in <br />
+                            Ogara, Delta State – the host community for our depot operations. Over the
+                            past 3 years, we have been the headline sponsor of the National Handball
+                            league in Nigeria, a commitment to the development of talents for the
+                            international stage. We also sponsored interventions for governments,
+                            communities and and industry workers during the COVID-19 pandemic.
+                        </p>
+
+                        <p class='fs-5 mt-2'>You can read all about our community engagement projects and programs in
+                            the CSR showcase below.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="justify-content-between d-grid d-md-flex">
+            <div>
+                <h1>Our CSR Media Gallery</h1>
+            </div>
+            <div>
+                <select id="projectSelect" class="form-control mb-3">
+                    <option value="default">Select SCR Project</option>
+                    <option value="education">Education Infrastructure Support</option>
+                    <option value="handball">Prudent Energy Handball League</option>
+                    <option value="covid">COVID-19 Support for Ogun State</option>
+                </select>
+                <p>click on the select to see the image and text</p>
+            </div>
+        </div>
+        <div id="content">
+            <img id="displayImage" src="default.jpg" class="img-fluid" alt="Project Image" width="1000" />
+            <p id="displayText">Select a project to view details.</p>
+        </div>    
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src='./Prudent-Energy-icon-small.png' />
+            </div>
+            <div class="footer-info">
+                <p>&copy; Prudent Energy 2024</p>
+                <div class="footer-line"></div>
+                <p>Head Office:<br>41B Oba Akinjobi Way<br>GRA Ikeja,<br>Lagos, Nigeria.<br><br>01 - 2905091(2)</p>
+            </div>
+            <div class="footer-social">
+                <p>Connect with us on</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                    <a href="#"><i class="fa fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
